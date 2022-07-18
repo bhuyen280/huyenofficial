@@ -8,7 +8,70 @@
     </head>
     <body>
         <h2 class="tieude">
-            day la tieu de
+            <!-- oonf lawms ys, nghe caau ddc caau ko
+            chat nha
+            mmưa ồn quá
+            git là một vcs version control system
+            github là một dịch vụ lưu trữ, nó khác nhau
+            để lưu trữ code  của git, có thể dùng github, bibucket, gitlab
+            nhưng github là phổ biến nhất
+            bây giờ vào github
+            repository  nghĩa là kho, kho lưu trữ code, viết tắt repo
+            nó có dạng là username/reponame ví dụ bhuyen280/huyenofficial
+            đầu tiên khi bấm vào thì nó sẽ không có gì, mà mình phải đẩy(push) code từ dưới máy tính của mình(local) lên
+            hiểu nôm na thì push giống tải 1 file từ máy tính lên gg drive, nhưng git nó có nhiều chức năng hơn gg
+            trước khi push thì phải set địa chỉ mà mình sẽ push bằng câu lệnh
+            git remote add bí_danh url
+            bí danh là tên sẽ dùng để dại diện cho url trong lần sử dụng tiếp
+            lấy url như sau
+            mỗi repo có 1 url khác
+            url của repo huyenofficial là https://github.com/bhuyen280/huyenofficial.git
+            vậy câu lệnh set địa chỉ mà mình sẽ push là
+            git remote add huyenofficial https://github.com/bhuyen280/huyenofficial.git
+            thông thường bí danh đặt trùng với tên repo cho dễ nhớ, đặt tên khác ko sao.
+            nó không hiện lỗi tức là đã adđ thành công
+            có thể adđ nhiều repo nếu muốn, trước mắt là 1 đã, vì trên github cũng mới có 1
+            adđ để cho git nó biết là mình sẽ đẩy code (push) lên repo nào
+            bây giờ thực hiện push. chỉ push được những file đã commit thôi,
+            file chưa add và commmit thì push ko lên được
+            cho nên phải đảm bảo trước khi push. tất cả sự thay đổi phải được adđ + commmi
+            nếu còn hiện chữ m tức là có thay đổi mới mà chưa commit thay đổi đó
+            push bằng câu lệnh
+            git push tên bí danh + nhánh
+            tên bí danh là đại diện cho cái link url, nhưng nó sẽ ngắn hơn url https://github.com/bhuyen280/huyenofficial.git (bí danh là huyenofficial vừa đặt)
+nhánh là gì thì sắp giải thích,bây h push đã
+bất cứ lúc nào mà hiện chữ fatal tức là lỗi, phải tìm xem là lỗi gùi, ở đây là sai tên bí danh
+nó yêu cầu đăng nhập, do nãy mình chưa set đầy đủ password
+chỉ chủ của repo trên github mới được push dữ liệu lên đó
+nên nó phải xác thực mình có chủ của repo đó không. bằng cách đăng nhập, nó sẽ tự mở ra trình duyeetjt nếu chưa set password
+xác thực thành công vì mình đã đăng nhập rồi, nếu chưa đăng nhập github thì nhập email mật khẩu để đăng nhập, bây h quay lại git bash
+nó load một loạt câu lệnh mà ko có fatal là thành công rồi, bây h lên github check
+như bạn thấy nó đã push được lên tât cả dữ liệu trong local, giống kiểu upload lên gg driver ấy. nhưng nó còn có nhiều tính năng khác
+local tức là máy tính của bạn
+local repo là thư mục lưu code trên máy tính của bạn, chính là thư mà bạn đã git init, là HTML CSS 21 DAY
+remote repo là kho lưu trữ code trên github
+khi push lên thì dữ liệu với sự thay đổi mới nhất sẽ dc push lên, và nó còn đồng bộ cả những commii 
+ví dụ có 2 commit ở dưới local
+cũng có 2 commit trên remote
+mã số của nó cũng gióng hệt nhau
+để đồng bộ code và các commit thì dùng push như trên
+thông thường git sẽ hieejnr 7 ký tự đầu, nếu muốn xem đầy đủ thì ấn vào
+code đã push giống như lưu trên gg drive , dù có bị mất thiết bị, mất trên local , thì vẫn lấy lại được. chỉ sợ mất tài hoản github :))
+chứ mất máy tính thì code không mất
+bây giờ thử sửa trên local và push một lần nữa
+nó sẽ kiểu update code mới, ghi đè code cũ -->
+<!-- giả sử có đoạn comment trên, trên remote hiện khoogn có  -->
+<!-- bây giờ muốn nó giống trên local, thì push một lần nữa
+nhưng trước khi push phải adđ và commmit trước
+add để git  ghi nhận những thay đổi trên các file và đưa cacsc file vào vùng stage/ staging
+commit để chốt thay đổi , chuẩn bị push, nó chỉ commit được những file đã ở trong vùng stage
+ở đây mình dùng add * nên sẽ staging tất cả các file có trong local repo (HTML CSS 21DAY)
+            có chữ M tức là có thay đổi mà chưa adđ + commit 
+            mình vừa comment một loạt , nên nó có thay đổi là đúng rồi -->
+            add * tương đương 
+            adđ --all  có 2 dấu trừ 
+            tương đương add . dấu chấm
+      
         </h2>
     </body>
     
