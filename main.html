@@ -68,10 +68,22 @@ commit để chốt thay đổi , chuẩn bị push, nó chỉ commit được n
 ở đây mình dùng add * nên sẽ staging tất cả các file có trong local repo (HTML CSS 21DAY)
             có chữ M tức là có thay đổi mà chưa adđ + commit 
             mình vừa comment một loạt , nên nó có thay đổi là đúng rồi -->
-            add * tương đương 
+            <!-- add * tương đương 
             adđ --all  có 2 dấu trừ 
             tương đương add . dấu chấm
-      
+      không hiện error hay fatal tức là đã push thành công, push thường phải đợi 2-3 giây, tùy tốc độ mạng.
+      bây h lên remote check thử -->
+      <!-- như vậy đã push thành công 
+      nó sẽ cập nhật code và đồng bộ lịch sử commit, bây h có 3 commit rồi, check thử bằng git log
+      khi bên git bash thực hiện commit xong mà chưa push, thì bên local có 3 commmit, nhưng trên remote mới có 2
+      sau khi push thì lịch sử commit trên local và remote giống nhau tức là giống về số lượng commit và mã của từng commmit
+      trên git nó cũng sẽ ghi lại thời gian commit và người commit và nội dung commmit giống trên local -->
+      <!-- git log thì nó hơi dài , có thể dùng git log --oneline nhìn nó sẽ gọn hơn
+      nó chỉ hiện 7 ký tự đầu thôi + nội dung commit htooi
+      ko hiện người commit và thời gian commmit
+      thông thường 7 ký tự đầu không bao giờ giống nhau giữa các cômmit
+      nên 7 ký tự là đủ để phân biệt -->
+      <!-- bây giờ bạn thử thay đổi trên file nào đó , mà ko phải file này, xong push thử -->
         </h2>
     </body>
     
