@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xây dựng layout web 3 cột với flex</title>
+</head>
+<style>
+    #container {
+        width: 900px;
+        height: 600px;
+        background-color: aliceblue;
+        margin: 0px auto;
+    }
+
+    .a {
+
+        width: 900px;
+        min-height: 30px;
+        background-color: green;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        text-transform: none;
+        text-align: center;
+        color: aliceblue;
+    }
+    #container2{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .b {
+        width: 60%;
+        height: 650px;
+        background-color: aqua;
+        color: black;
+    }
+    .c {
+        width: 40%;
+        height: 650px;
+        background-color: cornflowerblue;
+        color: black;
+    }
+    .d{
+        width: 900px;
+        min-height: 30px;
+        background-color: green;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        text-transform: none;
+        text-align: center;
+        color: aliceblue;
+    }
+</style>
+
+<body>
+    <div id="container">
+        <div class="a">Layout web</div>
+        <div id="container2">
+            <div class="b">Content</div>
+            <div class="c">Sidebar</div>
+        </div>
+        <div class="d">hbui260902@gmail.com</div>
+    </div>
+</body>
+
+</html>

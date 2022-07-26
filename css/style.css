@@ -1,3 +1,28 @@
-h2 {
-    color: red
+h1{
+    background-color: red;
+    width: 700px;
+}
+h1:hover{
+    background-color: brown;
+    width: 700px;
+}
+p{
+    font-size: 20px;
+}
+a{
+    color: red;
+    font-weight: bolder;
+}
+a:hover{
+    color: brown;
+    font-weight: bolder;
+}
+.a{
+    color: darkgreen;
+}
+.b{
+    color: darkorange;
+}
+input:checked + label{
+    color: red;
 }
