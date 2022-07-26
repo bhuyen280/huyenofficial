@@ -109,3 +109,71 @@ OK ĐÚNG RỒI ĐÓ, CÓ 1 CÁCH KHÁC NHANH HƠN
 thư mục hiện tại nó hiện trên đầu của git bash đấy nhá
 cách này nhanh hơn cách cd , làm lại đi
 ok đúng r
+đã chuyển sang nhánh test_code
+như bạn thấy code nó về đúng trạng thái của commit cuối (trên nhánh test_code)
+mấy đoạn viết vùa rồi là viết trên master, nên nó ko hiện khi checkout sang test_code
+bạn hiểu sự độc lập của các nhánh ko, có
+ như bạn  thấy commmit mới nhất trên test_code là 4cbfb0c 
+ nó khác với commit mới nhất trên master
+ nhưng các commit kể từ trước  4cbfb0c   thì nó lại giống hệt (vì như đã nói, khi tạo ra nhánh mới, nhánh mới sẽ có toàn bộ commit của nhánh source
+ và kể từ sau đó,  chúng nó mới bắt đầu khác nhau, khác về  mã code, nội dung commit, số lượng commit, vv......)
+ bạn hiểu đoạn nayfy chuws, rồi nha
+ lưu ý: nếu có thay đổi phải commit trước khi chuyển nhánh, như vừa nãy bị lỗi đó
+ tất nhiên 2 nhánh vừa rồi đều thuộc 1 local repo
+ nhưng nó  mới có trên local thôi, chưa có trên remote repo, tôi sẽ tạp trung làm việc với reop official thôi, còn repo text chưa bàn tới
+ mới có 1 nhánh master trên remote
+ nhưng trên local là có 2 branches
+
+
+
+
+
+
+
+
+ để up load nó lên remote thì mình dùng lệnh
+    $ git push --set-upstream ten_remote(chính là tên bí danh ấy) ten_nhanh_muon_up lên (chính là cái nhánh mà trên remote chưa có mà trên local đã có)
+    (đoạn này sẽ phải đợi nó mọt vài giây, vì là upload mà, tùy vao tốc độ mạng)
+    quay lạ remote check
+    như vậy là đã có nhánh mới trên remote
+    nó sẽ có toàn bộ code của nhánh đó trong lần commit cuối và có những lịch sự commit y hệt
+    bạn hiểu chỗ này k có
+    lệnh upstream này chỉ dùng 1 lần đầu khi nhánh mới tạo tạo local chưa có trên remote
+    khi nó đã tạo ra trên remote rồi, từ lấn bạn dùng git push
+    bạn giờ tạo ra thay đổi và push lên đi thạy đổi kiểu gì
+    tạo ra file mới, hoặc xóa file đã có ,hoặc chèn , sửa, ........
+    hỏi thật hay đùa đấy, kiểu vẫn chưa  hình dung ra là thêm xóa file, hay là thêm xóa text nào đó trong file (tùy mà, chủ yếu để check lệnh mới học, nên cứ thay đổi tùy ý)
+    làm đi
+    làm đi
+    làm đi
+    làm đi
+
+
+
+
+
+
+
+
+
+  (xin lỗi hơi quên phải tra gg)
+  mà còn nhớ bí danh là gì ko ta
+  là tên thay thế hay đại diện cho url của remote repo https://github.com/bhuyen280/huyenofficial.git (đây là link của remote repo, có thể copy trên github)
+  đó khi viết ra bí danh thì nó sẽ biết mình muốn up lên remote repo nào , thay vì phải viết url của remote repo dài như trên
+  bí danh này do mình tự đặt, nên(nên thôi nha) đặt trùng tên repo tức là huyenofficial
+  kiểm tra bàng lệnh git remote -v (ghi rồi đó, check lại đi)
+  nó hiện ra 4 dòng như thực chất là có 2 remote repo nha, 1 repo thì có 2 link nó giống y nhau thôi  (push và fetch)
+  để add remote repo thì tôi đã nói lần trước rồi, do mình đã add nên nó mới hiện ra như vậy
+  lênh add như nào nhỉ , nhớ k
+  git remote add bí danh + url nữa (đúng ko) đr, thiếu url, thì cái bí danh đó sẽ đại diện cho url đó, chỉ ra cho git biết muốn push lên url nào bằng cách gọi bí danh của
+  có thể loại bỏ remote repo (chắc cái này chưa nói ha)chưa
+  git remote rm tên_bí_danh
+  hoặc
+  git remote remove tên_bí_danh
+  dùng cái nào cũng được , đã remove thì sẽ ko gọi nó ra được nữa, hoặc phải add lại , trức khi gọi
+  tôi tạm remote cái binh đi
+sau đó check ok r
+  
+     $ git branch --set-upstream  
+
+ 
