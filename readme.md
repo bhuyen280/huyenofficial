@@ -77,7 +77,9 @@ lưu ý là khi mới tạo nhánh thì mình đang chưa ở nhánh đó, mà p
 bây giờ tạo ra 1 file mới (file này là tạo ra trên nhán hiện tại ( là nhánh tes_code), nhánh khác ko liên quan)
 đã tạo ra file  mới thì theo quy trình; phải git add rồi git commit
 bây giờ trên  nhánh test_codeôó những file như trên
-thử checkout sang nhánh master xem 
+thử checkout sang nhánh master xem , hơi lỗi chút nãy chưa commmit xong, bây giờ checkout nha
+ơ sao không add , commmit được file râđ me ta.
+
 
 
 
