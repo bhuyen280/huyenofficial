@@ -78,7 +78,12 @@ bây giờ tạo ra 1 file mới (file này là tạo ra trên nhán hiện tạ
 đã tạo ra file  mới thì theo quy trình; phải git add rồi git commit
 bây giờ trên  nhánh test_codeôó những file như trên
 thử checkout sang nhánh master xem , hơi lỗi chút nãy chưa commmit xong, bây giờ checkout nha
-ơ sao không add , commmit được file râđ me ta.
+ơ sao không add , commmit được file râđ me ta. à được ròi, chắc nó dở chứng tí ,hhhhhhh
+bây giờ sau khi commmit trên  trên nhánh têst_code , thử check out sang master
+à hiểu rồi, tức là tôi vùa commmit xong, lại viết lên đây, nên nó yêu cầu phải commit xong xuôi mới mới chuyển nhánh được
+nhưng commit xong thì tôi lại viết tiếp ra đây , nên nó lại đòi commit tiếp, mới cho checkout s
+bạn hiểu chỗ này ko có nha
+bây h tôi sẽ commuit, xong viêt tiếp ra note pad
 
 
 
