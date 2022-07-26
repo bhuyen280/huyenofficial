@@ -1,0 +1,20 @@
+.container {
+    width: 960px;
+    height: 960px;
+    margin: 0px auto;
+
+.text-center {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.list-product {}
+
+.product-item {
+    width: 30%;
+    min-height: 30%;
+    background-image: url("../images/bo1.jpg");
+    background-size: 30px;
+    background-color: aqua;
+    color: black;
+}
